@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import thallumala from "./asset/thallumala.jpg"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page">
+      <div className='movie__box'>
+        <img src={thallumala} alt="" />
+      </div>
+      <div className='movie__box'>
+       <img src={thallumala} alt="" />
+      </div>
+      <div className='brand'>
+        <h1>Elevate</h1>
+        <input type="text" name="" id="" placeholder='search by movie'/>
+        <input type="text" name="" id="" placeholder='search by region'/>
+      </div>
+      <div className='movie__box'>
+       <img src={thallumala} alt="" />
+      </div>
+      <div className='movie__box'>
+       <img src={thallumala} alt="" />
+      </div>
     </div>
   );
 }
