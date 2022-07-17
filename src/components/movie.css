@@ -1,0 +1,16 @@
+.movie__page {
+    background: var(--background);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.img__box {
+    width: 16%;
+}
