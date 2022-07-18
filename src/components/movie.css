@@ -8,9 +8,96 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 25px 2vw;
+    /* max-width: 1000px; */
 }
 
 .img__box {
-    width: 16%;
+    width: 32%;
+}
+
+.movie__info {
+    padding: 20px;
+    width: 60%;
+    background: var(--bglight);
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px;
+    /* border: 1px solid red; */
+}
+
+.movie__name {
+    text-align: left;
+    color: var(--text);
+    font-family: var(--headFont);
+    font-size: 45px;
+}
+
+.movie__rating {
+    padding: 20px 0 15px 0;
+    font-size: 20px;
+    color: white;
+    font-family: var(--textfont);
+}
+
+.movie__details {
+    color: var(--textdull);
+    font-family: var(--textfont);
+}
+
+.movie__director {
+    color: var(--textdull);
+    padding: 10px 0 0 0;
+    font-family: var(--textfont);
+}
+
+.movie__producer {
+    color: var(--textdull);
+    font-family: var(--textfont);
+}
+
+.movie__review__box {
+    box-shadow: 0 0 1px 1px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.movie__review__head {
+    background: var(--background);
+    overflow: hidden;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 10px;
+    color: white;
+    font-family: var(--headFont);
+}
+
+.movie__reviews {
+    color: var(--textdull);
+    font-family: var(--textfont);
+    padding: 10px 0;
+}
+
+.my__review {
+    padding: 10px 0;
+    border-radius: 5px;
+    display: flex;
+}
+
+.my__review__text {
+    width: 100%;
+}
+
+.review__submit {
+    background: var(--text);
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: var(--background);
+    font-family: var(--headFont);
+    font-size: 16px
 }

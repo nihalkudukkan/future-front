@@ -11,7 +11,7 @@ function App() {
        <img src={thallumala} alt="" />
       </div>
       <div className='brand'>
-        <h1>Elevate</h1>
+        <h1>ELEVATE</h1>
         <input type="text" name="" id="" placeholder='search by movie'/>
         <input type="text" name="" id="" placeholder='search by region'/>
       </div>
