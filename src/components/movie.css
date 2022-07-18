@@ -13,12 +13,16 @@
 }
 
 .img__box {
-    width: 32%;
+    width: 25%;
+}
+
+.img__box img {
+    
 }
 
 .movie__info {
     padding: 20px;
-    width: 60%;
+    width: 70%;
     background: var(--bglight);
     border-radius: 10px;
     box-shadow: 0 0 1px 1px;

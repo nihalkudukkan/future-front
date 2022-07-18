@@ -12,7 +12,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} exact/>
-        <Route path="/movie" element={<Movie />} />
+        <Route path="/movie/:name" element={<Movie />} />
       </Routes>
     </Router>
   </React.StrictMode>

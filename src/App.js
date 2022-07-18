@@ -1,11 +1,15 @@
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 import thallumala from "./asset/thallumala.jpg"
 
 function App() {
+  let navigate = useNavigate();
+
+
   return (
     <div className="page">
       <div className='movie__box'>
-        <img src={thallumala} alt="" />
+        <img src={thallumala} alt="" className='clickable' onClick={()=>navigate("/movie/thallumala")}/>
       </div>
       <div className='movie__box'>
        <img src={thallumala} alt="" />
